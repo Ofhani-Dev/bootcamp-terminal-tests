@@ -3,13 +3,13 @@ var greet = require("../greet");
 
 describe('This test should greet a  friend.' , function(){
 
-    it( 'should greet "Hello, Tim" ', function(){
+    it('I am going to greet "Hello, Tim" ', function(){
         assert.equal("Hello, Tim", greet("Tim"));
     });
-    it('should return "Hello, Zamo" ' , function(){
+    it('I am going to greet "Hello, Zamo" ' , function(){
         assert.equal("Hello, Zamo", greet("Zamo"));
     });
-    it('should return "Hello, khakhathi" ' , function(){
+    it('I am going to greet "Hello, khakhathi" ' , function(){
         assert.equal("Hello, Khakhathi", greet("Khakhathi"));
     });
 });
